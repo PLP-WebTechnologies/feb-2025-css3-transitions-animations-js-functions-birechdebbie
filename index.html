@@ -1,0 +1,31 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Beautiful Theme Switcher</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="container glass">
+    <h1 class="fade-in">change Your Theme</h1>
+    <button id="themeBtn">
+      <i id="themeIcon" class="fas fa-sun"></i>
+    </button>
+  </div>
+  
+<div class="controls">
+  <label for="speed-slider">Animation Speed:</label>
+  <input type="range" id="speed-slider" min="0.5" max="2" step="0.5" value="1">
+
+  <label for="font-size">Font Size:</label>
+  <select id="font-size">
+    <option value="14">Small</option>
+    <option value="16" selected>Medium</option>
+    <option value="18">Large</option>
+  </select>
+</div>
+</body>
+</html>
